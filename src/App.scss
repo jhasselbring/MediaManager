@@ -2,6 +2,9 @@
 @import "./styles/_AppHeader.scss";
 html{
     body{
+        background-color: #181818;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
         div#root{
             @include AppHeader;
         }
