@@ -1,0 +1,9 @@
+@import "./styles/reset.scss";
+@import "./styles/_AppHeader.scss";
+html{
+    body{
+        div#root{
+            @include AppHeader;
+        }
+    }
+}
